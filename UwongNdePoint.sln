@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UwongNdePoint.Android", "UwongNdePoint.Android\UwongNdePoint.Android.csproj", "{C8FE4F7C-AE0E-4D07-92DE-97F690A25808}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UwongNdePoint.iOS", "UwongNdePoint.iOS\UwongNdePoint.iOS.csproj", "{C1A6151F-96E3-44AC-8772-9684FE8D22EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1A6151F-96E3-44AC-8772-9684FE8D22EB}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{C1A6151F-96E3-44AC-8772-9684FE8D22EB}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{C1A6151F-96E3-44AC-8772-9684FE8D22EB}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{C1A6151F-96E3-44AC-8772-9684FE8D22EB}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{C1A6151F-96E3-44AC-8772-9684FE8D22EB}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{C1A6151F-96E3-44AC-8772-9684FE8D22EB}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{C1A6151F-96E3-44AC-8772-9684FE8D22EB}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{C1A6151F-96E3-44AC-8772-9684FE8D22EB}.Debug|iPhone.Build.0 = Debug|iPhone
+		{C1A6151F-96E3-44AC-8772-9684FE8D22EB}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{C1A6151F-96E3-44AC-8772-9684FE8D22EB}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{C1A6151F-96E3-44AC-8772-9684FE8D22EB}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{C1A6151F-96E3-44AC-8772-9684FE8D22EB}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
+		{C1A6151F-96E3-44AC-8772-9684FE8D22EB}.Release|iPhone.ActiveCfg = Release|iPhone
+		{C1A6151F-96E3-44AC-8772-9684FE8D22EB}.Release|iPhone.Build.0 = Release|iPhone
+		{C1A6151F-96E3-44AC-8772-9684FE8D22EB}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{C1A6151F-96E3-44AC-8772-9684FE8D22EB}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{C8FE4F7C-AE0E-4D07-92DE-97F690A25808}.Ad-Hoc|iPhone.ActiveCfg = Debug|Any CPU
+		{C8FE4F7C-AE0E-4D07-92DE-97F690A25808}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
+		{C8FE4F7C-AE0E-4D07-92DE-97F690A25808}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
+		{C8FE4F7C-AE0E-4D07-92DE-97F690A25808}.AppStore|iPhone.Build.0 = Debug|Any CPU
+		{C8FE4F7C-AE0E-4D07-92DE-97F690A25808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8FE4F7C-AE0E-4D07-92DE-97F690A25808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8FE4F7C-AE0E-4D07-92DE-97F690A25808}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{C8FE4F7C-AE0E-4D07-92DE-97F690A25808}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{C8FE4F7C-AE0E-4D07-92DE-97F690A25808}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{C8FE4F7C-AE0E-4D07-92DE-97F690A25808}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{C8FE4F7C-AE0E-4D07-92DE-97F690A25808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8FE4F7C-AE0E-4D07-92DE-97F690A25808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8FE4F7C-AE0E-4D07-92DE-97F690A25808}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{C8FE4F7C-AE0E-4D07-92DE-97F690A25808}.Release|iPhone.Build.0 = Release|Any CPU
+		{C8FE4F7C-AE0E-4D07-92DE-97F690A25808}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{C8FE4F7C-AE0E-4D07-92DE-97F690A25808}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = UwongNdePoint.Android\UwongNdePoint.Android.csproj
+	EndGlobalSection
+EndGlobal
