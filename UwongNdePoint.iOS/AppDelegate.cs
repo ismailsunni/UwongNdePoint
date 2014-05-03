@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
+using Google.Maps;
 
 namespace UwongNdePoint.iOS
 {
@@ -12,6 +13,7 @@ namespace UwongNdePoint.iOS
   [Register("AppDelegate")]
   public partial class AppDelegate : UIApplicationDelegate
   {
+    const String MapsApiKey = "AIzaSyD_kz_qixkUu_Qx1-rxzSW8d7OK9xTaYow";
     // class-level declarations
     UIWindow window;
     //
@@ -23,11 +25,12 @@ namespace UwongNdePoint.iOS
     //
     public override bool FinishedLaunching(UIApplication app, NSDictionary options)
     {
+      MapServices.ProvideAPIKey(MapsApiKey);
       // create a new window instance based on the screen size
       window = new UIWindow(UIScreen.MainScreen.Bounds);
 			
       // If you have defined a root view controller, set it here:
-      // window.RootViewController = myViewController;
+      window.RootViewController = new MapsViewController();
 			
       // make the window visible
       window.MakeKeyAndVisible();
